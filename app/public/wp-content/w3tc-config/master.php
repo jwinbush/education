@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "2.7.6",
+    "version": "2.8.0",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -567,6 +567,11 @@
     "cdn.azure.container": "",
     "cdn.azure.cname": [],
     "cdn.azure.ssl": "auto",
+    "cdn.azuremi.user": "",
+    "cdn.azuremi.clientid": "",
+    "cdn.azuremi.container": "",
+    "cdn.azuremi.cname": [],
+    "cdn.azuremi.ssl": "auto",
     "cdn.mirror.domain": [],
     "cdn.mirror.ssl": "auto",
     "cdn.limelight.short_name": "",
@@ -1036,5 +1041,9 @@
     "imageservice.configuration_overloaded": true,
     "fragmentcache": {
         "engine": "file"
+    },
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
     }
 }
